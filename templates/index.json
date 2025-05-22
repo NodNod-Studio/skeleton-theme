@@ -12,9 +12,54 @@
     "main": {
       "type": "hello-world",
       "settings": {}
+    },
+    "custom_section_Ly4AQ6": {
+      "type": "custom-section",
+      "blocks": {
+        "ai_gen_block_7797e83_8zq3aW": {
+          "type": "ai_gen_block_7797e83",
+          "settings": {
+            "title": "Featured Products",
+            "source": "collection",
+            "collection": "",
+            "product_list": [],
+            "product_limit": 6,
+            "products_per_view": 4,
+            "products_per_view_mobile": 2,
+            "card_border_radius": 8,
+            "card_background_color": "#ffffff",
+            "heading_size": 24,
+            "product_title_size": 16,
+            "product_price_size": 16,
+            "heading_color": "#000000",
+            "product_title_color": "#000000",
+            "product_price_color": "#000000",
+            "product_compare_price_color": "#999999",
+            "button_background_color": "#ffffff",
+            "button_border_color": "#e0e0e0",
+            "button_text_color": "#000000",
+            "button_hover_color": "#f5f5f5",
+            "add_to_cart_text": "Add to cart",
+            "adding_to_cart_text": "Adding...",
+            "added_to_cart_text": "Added to cart",
+            "sold_out_text": "Sold out",
+            "add_to_cart_background_color": "#000f9f",
+            "add_to_cart_text_color": "#ffffff",
+            "add_to_cart_hover_color": "#000000",
+            "add_to_cart_border_radius": 4
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7797e83_8zq3aW"
+      ],
+      "name": "t:general.custom_section",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom_section_Ly4AQ6"
   ]
 }
